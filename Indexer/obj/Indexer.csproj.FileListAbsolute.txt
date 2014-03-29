@@ -1,0 +1,7 @@
+F:\___毕业设计\search-engine-2010\Indexer\obj\Debug\ResolveAssemblyReference.cache
+F:\___毕业设计\search-engine-2010\Indexer\bin\Debug\Indexer.dll
+F:\___毕业设计\search-engine-2010\Indexer\bin\Debug\Indexer.pdb
+F:\___毕业设计\search-engine-2010\Indexer\bin\Debug\Lucene.Net.dll
+F:\___毕业设计\search-engine-2010\Indexer\bin\Debug\Lucene.Net.pdb
+F:\___毕业设计\search-engine-2010\Indexer\obj\Debug\Indexer.dll
+F:\___毕业设计\search-engine-2010\Indexer\obj\Debug\Indexer.pdb

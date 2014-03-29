@@ -1,0 +1,139 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="Apache, 中文, 手册, 中文版, 中文手册, 中文版手册, 参考手册, 中文参考手册, 金步国" />
+<meta name="description" content="Apache 2.2 中文版参考手册" />
+<meta name="author" content="金步国" />
+<link href="../style/css/manual-zip.css" rel="stylesheet" media="all" type="text/css" title="Main stylesheet" />
+<link href="../style/css/manual-zip-100pc.css" rel="alternate stylesheet" media="all" type="text/css" title="No Sidebar - Default font size" />
+<link href="../style/css/manual-print.css" rel="stylesheet" media="print" type="text/css" />
+<title>mod_status － Apache 2.2 中文版参考手册</title>
+</head>
+<body><div id="page-header">
+<p class="menu"><a href="../mod/index.html">模块索引</a> | <a href="../mod/directives.html">指令索引</a> | <a href="../faq/index.html">常见问题</a> | <a href="../glossary.html">词汇表</a> | <a href="../sitemap.html">站点导航</a></p><p class="apache">Apache HTTP Server 版本2.2</p><img alt="" src="../images/feather.gif" /></div>
+<div class="up"><a href="./index.html"><img title="&lt;-" alt="&lt;-" src="../images/left.gif" /></a></div>
+<div id="path"><a href="http://www.apache.org/">Apache</a> &gt; <a href="http://httpd.apache.org/">HTTP Server</a> &gt; <a href="http://httpd.apache.org/docs/">文档</a> &gt; <a href="../index.html">版本2.2</a> &gt; <a href="./index.html">模块</a></div>
+
+<div id="translation-info">　　 <a href="../translator_announcement.html#thanks">致谢</a> | <a href="../translator_announcement.html#announcement">译者声明</a> | 本篇译者：&lt;<a href="../translator_announcement.html#join">虚位以待</a>&gt; | 本篇译稿完成时间：?年?月?日 | <a href="../translator_announcement.html#last_new">获取最新版本</a></div>
+<div id="page-content"><div id="preamble"><h1>Apache模块 mod_status</h1>
+
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#AAAAAA" class="module">
+<tr><th><a href="module-dict.html#Description">说明</a></th><td>生成描述服务器状态的Web页面</td></tr>
+<tr><th><a href="module-dict.html#Status">状态</a></th><td>基本(B)</td></tr>
+<tr><th><a href="module-dict.html#ModuleIdentifier">模块名</a></th><td>status_module</td></tr>
+<tr><th><a href="module-dict.html#SourceFile">源文件</a></th><td>mod_status.c</td></tr>
+</table>
+<h3>概述</h3>
+
+    <p>The Status module allows a server administrator to find out
+    how well their server is performing. A HTML page is presented
+    that gives the current server statistics in an easily readable
+    form. If required this page can be made to automatically
+    refresh (given a compatible browser). Another page gives a
+    simple machine-readable list of the current server state.</p>
+
+    <p>The details given are:</p>
+
+    <ul>
+      <li>The number of worker serving requests</li>
+
+      <li>The number of idle worker</li>
+
+      <li>The status of each worker, the number of requests that
+      worker has performed and the total number of bytes served by
+      the worker (*)</li>
+
+      <li>A total number of accesses and byte count served (*)</li>
+
+      <li>The time the server was started/restarted and the time it
+      has been running for</li>
+
+      <li>Averages giving the number of requests per second, the
+      number of bytes served per second and the average number of
+      bytes per request (*)</li>
+
+      <li>The current percentage CPU used by each worker and in
+      total by Apache (*)</li>
+
+      <li>The current hosts and requests being processed (*)</li>
+    </ul>
+
+    <p>A compile-time option must be used to display the details
+    marked "(*)" as the instrumentation required for obtaining
+    these statistics does not exist within standard Apache.</p>
+</div>
+<div class="top"><a href="#page-header"><img alt="top" src="../images/up.gif" /></a></div>
+<div class="section">
+<h2><a name="enable" id="enable">Enabling Status Support</a></h2>
+    
+
+    <p>To enable status reports only for browsers from the foo.com
+    domain add this code to your <code>httpd.conf</code>
+    configuration file</p>
+<div class="example"><p><code>
+    &lt;Location /server-status&gt;<br />
+    SetHandler server-status<br />
+<br />
+    Order Deny,Allow<br />
+    Deny from all<br />
+    Allow from .foo.com<br />
+    &lt;/Location&gt;
+</code></p></div>
+
+    <p>You can now access server statistics by using a Web browser
+    to access the page
+    <code>http://your.server.name/server-status</code></p>
+</div><div class="top"><a href="#page-header"><img alt="top" src="../images/up.gif" /></a></div>
+<div class="section">
+<h2><a name="autoupdate" id="autoupdate">Automatic Updates</a></h2>
+
+    
+    <p>You can get the status page to update itself automatically if
+    you have a browser that supports "refresh". Access the page
+    <code>http://your.server.name/server-status?refresh=N</code> to
+    refresh the page every N seconds.</p>
+
+</div><div class="top"><a href="#page-header"><img alt="top" src="../images/up.gif" /></a></div>
+<div class="section">
+<h2><a name="machinereadable" id="machinereadable">Machine Readable Status File</a></h2>
+
+    
+    <p>A machine-readable version of the status file is available by
+    accessing the page
+    <code>http://your.server.name/server-status?auto</code>. This
+    is useful when automatically run, see the Perl program in the
+    <code>/support</code> directory of Apache,
+    <code>log_server_status</code>.</p>
+
+    <div class="note">
+      <strong>It should be noted that if <code class="module"><a href="../mod/mod_status.html">mod_status</a></code> is
+      compiled into the server, its handler capability is available
+      in <em>all</em> configuration files, including
+      <em>per</em>-directory files (例如，<code>.htaccess</code>). This may have security-related
+      ramifications for your site.</strong>
+    </div>
+
+</div>
+<div class="top"><a href="#page-header"><img alt="top" src="../images/up.gif" /></a></div>
+<div class="directive-section"><h2><a name="ExtendedStatus" id="ExtendedStatus">ExtendedStatus</a> <a name="extendedstatus" id="extendedstatus">指令</a></h2>
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#AAAAAA" class="directive">
+<tr><th><a href="directive-dict.html#Description">说明</a></th><td>Keep track of extended status information for each 
+request</td></tr>
+<tr><th><a href="directive-dict.html#Syntax">语法</a></th><td><code>ExtendedStatus On|Off</code></td></tr>
+<tr><th><a href="directive-dict.html#Default">默认值</a></th><td><code>ExtendedStatus Off</code></td></tr>
+<tr><th><a href="directive-dict.html#Context">作用域</a></th><td>server config</td></tr>
+<tr><th><a href="directive-dict.html#Status">状态</a></th><td>基本(B)</td></tr>
+<tr><th><a href="directive-dict.html#Module">模块</a></th><td>mod_status</td></tr>
+<tr><th><a href="directive-dict.html#Compatibility">兼容性</a></th><td>ExtendedStatus is only available in Apache 1.3.2 及以后的版本中可用</td></tr>
+</table>
+    <p>This setting applies to the entire server, and cannot be
+    enabled or disabled on a virtualhost-by-virtualhost basis.
+    The collection of extended status information can slow down
+    the server.</p>
+
+</div>
+</div>
+<div id="footer">
+<p class="apache">本文允许自由使用、分发、转载，但必须保留译者署名；详见：<a href="../translator_announcement.html#announcement">译者声明</a>。</p>
+<p class="menu"><a href="../mod/index.html">模块索引</a> | <a href="../mod/directives.html">指令索引</a> | <a href="../faq/index.html">常见问题</a> | <a href="../glossary.html">词汇表</a> | <a href="../sitemap.html">站点导航</a></p></div>
+</body></html>

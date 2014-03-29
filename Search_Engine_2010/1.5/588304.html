@@ -1,0 +1,257 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta content="all" name="robots" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/ui/styles/topic.css" />
+<script type="text/javascript" src="/ui/scripts/Csdn/Topic.js"></script>
+<title>关于读取文本文件中字符串的问�?VB / 基础�?- CSDN社区 community.csdn.net</title>
+<meta content=".net 函数 文件 字符�?txtfile sservername 读取 ini文件 byval ts VB 基础�? name="Keywords" />
+<meta content="我想读取某一INI文件中某一行的字符串，但不知用何命令或方法请高手们指教，谢谢先我的程序是：Dim fso As New FileSystemObject    Dim txtFile As File    Dim ts As TextStream    Dim sServerName As String    Set txtFile = fso.GetFile(&quot;F:\Profile.ini&quot;)    Set ts = txtFile.OpenAsTextStream(ForReading)    sServerName = ts.ReadLine    Text1.Text = sServerName但只能读取第一行的字符串，我想读取第三行的字符�? name="description" />
+</head>
+<body>
+<div id="wrapper">
+<div id="innerWrapper">
+<div id="logo">
+<script src='http://www.csdn.net/ggmm/csdn_ggmm.js'></script>
+<script type='text/javascript'>show_ads_zone(230);</script>
+<img src="http://counter.csdn.net/pv.aspx?id=94" alt="" style="display: none" />
+<div/>
+<div style="margin:0 auto; width:100%; overflow:hidden">
+<script src="http://csdnimg.cn/pubnav/js/pub_topnav.js" 
+type="text/javascript" ></script>
+</div>
+
+<div id="logo">
+<table border="0" cellspacing="0" cellpadding="0" width="760">
+  <tr style="text-align:center">
+  	<td width="380" height="36" style="background-color:#026994; vertical-align:middle; margin:auto;" align="center">
+  	<!--a href="http://community.csdn.net/Games/GamesList.aspx/" target="_blank"><font size="3px" color="white"><strong>可用分押宝游戏火热进行中...</strong></font></a-->
+  	<a href="http://events.csdn.net/wiki/index.html" target="_blank"><font size="3px" color="white"><strong>写词条，拿礼品—中国移动Wiki嘉年�?</strong></font></a>
+    </td>
+    <td width="380" height="36" style="background-color:#026994; vertical-align:middle; margin:auto;" align="center">
+  	<a href="http://g.csdn.net/5085045" target="_blank"><font size="3px" color="white"><strong>浅谈并行编程中的任务分解模式</strong></font></a>
+  	</td>
+  </tr>
+  <tr id="bigFlash" style="text-align:center">
+	<!--td colspan="2"><a href="http://community.csdn.net/" target="_blank"><img src="/t/img/topicAD.jpg" width="760" height="300" border="0" /></a></td-->
+	<td colspan="2"><a href="http://g.csdn.net/5078710" target="_blank"><img src="/t/img/20090403.jpg" width="760" height="300" border="0" /></a></td>
+  </tr>
+</table>
+<script type="text/javascript">setTimeout("document.getElementById('bigFlash').style.display='none'", 5000);</script>
+</div>
+<table><tr>
+<td><a href="http://community.csdn.net/" rel="external"><img src="/ui/images/logo_csdn.gif" alt="CSDN社区" /></a></td>
+<td><script type='text/javascript'>show_ads_zone(228);</script>
+<!--<iframe frameborder="0" width="475" height="60" scrolling="no" src="/t/img/centerAd.htm">
+    </iframe>--></td>
+<td><script type='text/javascript'>show_ads_zone(229);</script></td>
+</tr></table>
+<!-- script src="http://notify.hi.csdn.net/PromptInfo.ashx?ForWhat=FullJs"></script -->
+
+<link rel="stylesheet" href="http://www.csdn.net/css/csdn_favbykimi.css" type="text/css" media="all" />
+<div id="navigation">
+<div id="search">
+<div id="innerSearch">
+<input id="key" onfocus="value=''" /><a href="#" onclick="return Search()">搜索</a>&nbsp;<cite class="fav_csdnstylebykimi"><a href="JavaScript:d=document;t=d.selection?(d.selection.type!='None'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'');void(saveit=window.open('http://wz.csdn.net/storeit.aspx?t='+escape(d.title)+'&u='+escape(d.location.href)+'&c='+escape(t),'saveit','scrollbars=no,width=590,height=300,left=75,top=20,status=no,resizable=yes'));saveit.focus();" title="收藏到我的网摘中，并分享给我的朋�?>收藏</a></cite>&nbsp;<a
+        href="#" onclick="return Print()">打印</a>&nbsp;<a href="#" onclick="return Close()">关闭</a>
+</div>
+</div>
+<div>
+<a href="http://community.csdn.net/" rel="external" class="CSDNRoom">CSDN社区</a>&nbsp;>&nbsp;
+<a href="http://community.csdn.net/Expert/ForumsList.asp?typenum=1&roomid=51" rel="external">
+VB</a>&nbsp;>&nbsp; <a href="http://community.csdn.net/Expert/ForumList.asp?typenum=1&roomid=5101"
+    rel="external">基础�?/a>
+</div>
+</div>
+
+<div id="mainWrapper">
+<div id="pageContent">
+<div id="innerContent">
+<h1>关于读取文本文件中字符串的问�?/h1><div class="author">
+<a class="anchor" name="Top">楼主</a>zlight68952（游子）<input type="button" class="user1" title="一级用�?该版得分小于等于100�? />2002-03-20 12:59:20 �? VB / 基础�?提问</div>
+<p>
+我想读取某一INI文件中某一行的字符串，但不知用何命令或方法 &nbsp; <br/> &nbsp; 请高手们指教，谢谢先 &nbsp; <br/> &nbsp;  &nbsp; <br/> &nbsp; 我的程序是： &nbsp; <br/> &nbsp; Dim &nbsp; fso &nbsp; As &nbsp; New &nbsp; FileSystemObject &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; Dim &nbsp; txtFile &nbsp; As &nbsp; File &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; Dim &nbsp; ts &nbsp; As &nbsp; TextStream &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; Dim &nbsp; sServerName &nbsp; As &nbsp; String &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; Set &nbsp; txtFile &nbsp; = &nbsp; fso.GetFile(&quot;F:\Profile.ini&quot;) &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; Set &nbsp; ts &nbsp; = &nbsp; txtFile.OpenAsTextStream(ForReading) &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; sServerName &nbsp; = &nbsp; ts.ReadLine &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; Text1.Text &nbsp; = &nbsp; sServerName &nbsp; <br/> &nbsp;  &nbsp; <br/> &nbsp; 但只能读取第一行的字符串，我想读取第三行的字符�?
+<span>问题点数�?0、回复次数：6</span><a href="#">Top</a>
+</p>
+<div class="tagad">
+<iframe frameBorder="0" scrolling='no' src="/Include/Board.htm?Tags="></iframe></div>
+<h3><strong><a class="anchor" name="r_3904791">1 �?/a>ferrytang（欢迎你�?input type="button" class="star2" title="二星用户 该版得分小于等于30000分，大于10000�? /></strong><span>回复�?2002-03-20 13:06:48 得分 <em>20</em></span></h3>
+<p>http://www.csdn.net/expert/topic/577/577652.xml?temp=.9388391 &nbsp; <br/> &nbsp; 去看看这个帖�?&nbsp; <br/> &nbsp; 读写 &nbsp; ini文件有专用api函数�?a href="#">Top</a></p><h3><strong><a class="anchor" name="r_3904940">2 �?/a>fjw_2001（fjw�?input type="button" class="user1" title="一级用�?该版得分小于等于100�? /></strong><span>回复�?2002-03-20 13:14:35 得分 0
+</span></h3>
+<p>认真看一下msdn &nbsp; fso能完�?a href="#">Top</a></p><h3><strong><a class="anchor" name="r_3905036">3 �?/a>xzyhero（大志）<input type="button" class="user1" title="一级用�?该版得分小于等于100�? /></strong><span>回复�?2002-03-20 13:18:58 得分 0
+</span></h3>
+<p>open &nbsp; *** &nbsp; for &nbsp; input &nbsp; as &nbsp; #1 &nbsp; <br/> &nbsp;  &nbsp;  &nbsp; do &nbsp; while &nbsp; not &nbsp; EOF(#1) &nbsp; <br/> &nbsp;  &nbsp;  &nbsp; get &nbsp; <br/> &nbsp;  &nbsp;  &nbsp; ...... &nbsp; <br/> &nbsp;  &nbsp;  &nbsp; loop &nbsp; <br/> &nbsp; close &nbsp; #1<a href="#">Top</a></p><h3><strong><a class="anchor" name="r_3905099">4 �?/a>watt（瓦特）<input type="button" class="star1" title="一星用�?该版得分小于等于10000分，大于5000�? /></strong><span>回复�?2002-03-20 13:22:14 得分 0
+</span></h3>
+<p>http://www.csdn.net/expert/topic/577/577652.xml?temp=.9388391 &nbsp; <br/> &nbsp; 去看看这个帖�?&nbsp; <br/> &nbsp; 读写 &nbsp; ini文件有专用api函数�?a href="#">Top</a></p><h3><strong><a class="anchor" name="r_3905160">5 �?/a>heng_s（渣渣）<input type="button" class="user4" title="四级用户 该版得分小于等于2000分，大于1000�? /></strong><span>回复�?2002-03-20 13:24:57 得分 <em>20</em></span></h3>
+<p>这个函数应该是你要的�? &nbsp; <br/> &nbsp; Private &nbsp; Declare &nbsp; Function &nbsp; GetPrivateProfileString &nbsp; Lib &nbsp; &quot;kernel32&quot; &nbsp; Alias &nbsp; &quot;GetPrivateProfileStringA&quot; &nbsp; (ByVal &nbsp; lpApplicationName &nbsp; As &nbsp; String, &nbsp; ByVal &nbsp; lpKeyName &nbsp; As &nbsp; Any, &nbsp; ByVal &nbsp; lpDefault &nbsp; As &nbsp; String, &nbsp; ByVal &nbsp; lpReturnedString &nbsp; As &nbsp; String, &nbsp; ByVal &nbsp; nSize &nbsp; As &nbsp; Long, &nbsp; ByVal &nbsp; lpFileName &nbsp; As &nbsp; String) &nbsp; As &nbsp; Long &nbsp; <br/> &nbsp;  &nbsp; <br/> &nbsp; Public &nbsp; Function &nbsp; GetIniSettingA(ByVal &nbsp; sFileName &nbsp; As &nbsp; String, &nbsp; ByVal &nbsp; sProjName &nbsp; As &nbsp; String, &nbsp; ByVal &nbsp; sKeyName &nbsp; As &nbsp; String, &nbsp; Optional &nbsp; bUcaseAll &nbsp; As &nbsp; Boolean &nbsp; = &nbsp; True) &nbsp; As &nbsp; String &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp; Dim &nbsp; sGet &nbsp; As &nbsp; String &nbsp; * &nbsp; 255 &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp; Dim &nbsp; lErr &nbsp; As &nbsp; Long &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp; sGet &nbsp; = &nbsp; Space(255) &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp; lErr &nbsp; = &nbsp; GetPrivateProfileString(Trim(sProjName), &nbsp; sKeyName, &nbsp; &quot;&quot;, &nbsp; sGet, &nbsp; 255, &nbsp; sFileName) &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp; GetIniSettingA &nbsp; = &nbsp; Trim(sGet) &nbsp; <br/> &nbsp;  &nbsp;  &nbsp;  &nbsp; If &nbsp; bUcaseAll &nbsp; Then &nbsp; GetIniSettingA &nbsp; = &nbsp; UCase(GetIniSettingA) &nbsp; <br/> &nbsp; End &nbsp; Function<a href="#">Top</a></p><h3><strong><a class="anchor" name="r_3908748">6 �?/a>zlight68952（游子）<input type="button" class="user1" title="一级用�?该版得分小于等于100�? /></strong><span>回复�?2002-03-20 16:24:20 得分 0
+</span></h3>
+<p>多谢大家<a href="#">Top</a></p><h4><strong>相关问题</strong></h4>
+<div class="relation">
+<ul>
+<li><a href="http://topic.csdn.net/t/20050526/23/4038745.html" rel="external">如何从文本文件中读取出中文字符串</a></li>
+<li><a href="http://topic.csdn.net/t/20010518/19/125923.html" rel="external">怎样从文本文件中读取字符串？</a></li>
+<li><a href="http://topic.csdn.net/t/20050331/16/3898148.html" rel="external">从文本文件中读取汉字字符串时乱码的问�?/a></li>
+<li><a href="http://topic.csdn.net/t/20020326/13/600745.html" rel="external">请问：怎么从文本文件中读取字符串，怎么修改其中的字符？</a></li>
+<li><a href="http://topic.csdn.net/t/20051102/19/4367431.html" rel="external">读取文本文件中字符串到数组里的问�?解决必给�?/a></li>
+<li><a href="http://topic.csdn.net/t/20011218/15/428485.html" rel="external">读取一个文本文�?再这个文件中找到自己要找的字符串�?用另一个字符串代替,要怎么�?</a></li>
+<li><a href="http://topic.csdn.net/t/20010613/22/157940.html" rel="external">怎么在文本文件中插入一字符串？</a></li>
+<li><a href="http://topic.csdn.net/t/20050417/18/3944001.html" rel="external">字符串在文本文件中的定位查找</a></li>
+<li><a href="http://topic.csdn.net/t/20030108/10/1337691.html" rel="external">如何用vb读取文本文件中的某一行某一列的字符串，并复制后拷贝到另一文本，急！</a></li>
+<li><a href="http://topic.csdn.net/t/20020530/12/764732.html" rel="external">如何读取文本文件中？急！</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="sidebar">
+<h3>关键�?/h3>
+<div>
+<ul>
+<li><a href="http://tag.csdn.net/tag/.net/" rel="external">.net</a></li>
+<li><a href="http://tag.csdn.net/tag/函数/" rel="external">函数</a></li>
+<li><a href="http://tag.csdn.net/tag/文件/" rel="external">文件</a></li>
+<li><a href="http://tag.csdn.net/tag/字符�?" rel="external">字符�?/a></li>
+<li><a href="http://tag.csdn.net/tag/txtfile/" rel="external">txtfile</a></li>
+<li><a href="http://tag.csdn.net/tag/sservername/" rel="external">sservername</a></li>
+<li><a href="http://tag.csdn.net/tag/读取/" rel="external">读取</a></li>
+<li><a href="http://tag.csdn.net/tag/ini文件/" rel="external">ini文件</a></li>
+<li><a href="http://tag.csdn.net/tag/byval/" rel="external">byval</a></li>
+<li><a href="http://tag.csdn.net/tag/ts/" rel="external">ts</a></li>
+</ul>
+</div>
+<h3>得分解答快速导�?/h3>
+<div>
+<ul>
+<li>帖主�?a href="#Top">zlight68952</a></li>
+<li><a href="#r_3904791">ferrytang</a></li>
+<li><a href="#r_3905160">heng_s</a></li>
+</ul>
+</div>
+<h3>相关链接</h3>
+<div>
+<ul>
+
+    <li><a href="http://www.dearbook.com.cn/Book/SearchBook.aspx?sortid=8&sorttype=smallsort" target=_blank>Visual Basic类图�?/a></li>
+    <li><a href="http://www.codechina.net/resource/sort.php/18" target=_blank>Visual Basic类源码下�?/a></li>
+
+</ul></div>
+<h3>广告也精�?/h3>
+<div>
+    <!-- script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script -->
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-1076724771190722";
+/* 160x600, 创建�?10-3-16 */
+google_ad_slot = "1613481335";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+<h3>反馈</h3><div>请通过下述方式给我们反�?br/><img src="/ui/images/feedback.gif" alt="反馈" /></div>
+</div>
+<div class="clear"></div>
+</div>
+<div style="text-align: center;">
+    <div id="pubfooter" style="width: 770px;">
+    <div id="Float21789" style="position: absolute; z-index: 9; width: 190px; top: 200px;
+        right: 3px;">
+        <center>
+            <div id="AD21789" style="width: 190px; height: 90px; text-align: center; float: none;">
+				<a style="float: right; padding-right: 10px; cursor: pointer;" onclick="document.getElementById('Float21789').style.display='none';">x</a>
+                <a href="http://g.csdn.net/5060169" target="_blank">
+                    <img src="http://community.csdn.net/ui/homepage/images/questions.gif" alt="提问" style="width: 180px;
+                        height: 50px; padding-right: 3px;" /></a>
+            </div>
+        </center>
+    </div>
+
+    <script type="text/javascript" language="JavaScript">
+    var csdnScrollTop=function(){
+        return document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop;
+        };
+        function mymove21789(){
+        document.getElementById("Float21789").style.top=csdnScrollTop()+100+'px';document.getElementById("Float21789").style.right=3+'px';setTimeout("mymove21789();",50);
+        }
+        mymove21789();
+    </script>
+	<!--
+    <div id="Float21790" style="position: absolute; z-index: 9; width: 190px; top: 300px;
+        right: 3px;">
+        <center>
+            <div id="AD21790" style="width: 190px; height: 90px; text-align: center; float: none;">
+                <a href="http://vote.csdn.net/VoteList.aspx" target="_blank">
+                    <img src="http://topic.csdn.net/t/img/hotvote.gif" alt="惹火投票。。火热进行中..." style="width: 180px; height: 30px;" /></a>
+            </div>
+        </center>
+    </div>
+
+    <script type="text/javascript" language="JavaScript">
+        function mymove21790(){
+        document.getElementById("Float21790").style.top=csdnScrollTop()+200+'px';document.getElementById("Float21790").style.right=3+'px';setTimeout("mymove21790();",50);
+        }
+        mymove21790();
+    </script>
+	-->
+    <script src="http://community.csdn.net/t/fb2.js" type="text/javascript"></script>
+    <script src="http://csdnimg.cn/pubfooter/js/publib_footer.js" type="text/javascript"></script>
+	<style type="text/css">.pub_footerall{width:770px;}</style>
+    </div>
+</div>
+
+        <!--google   Analytics begin -->
+
+        <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+        </script>
+
+        <script type="text/javascript">
+_uacct = "UA-2688088-7";
+urchinTracker();
+        </script>
+
+<div id="ad_right" style="position:absolute;width:120px;top:184px;left:10px;display:none;">
+<script type="text/javascript">
+try {
+	var ad_right = "";
+	if (screen.availWidth > 1200) { 
+		ad_right += '<' + 'script type=\"text/javascript\">';
+		ad_right += 'google_ad_client = "pub-1076724771190722";';
+		ad_right += 'google_ad_slot =\"5633584852\";';
+		ad_right += 'google_ad_width = 120;';
+		ad_right += 'google_ad_height = 600;';  
+		ad_right += '</'+'script>';
+		ad_right += '<'+'script type=\"text/javascript\"';
+		ad_right += 'src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">';
+		ad_right += '</'+'script>';
+	}
+	document.write(ad_right);
+	document.getElementById("ad_right").style.display = "";
+}catch(e){}
+</script>
+</div>
+        <!--google   Analytics end -->
+
+        <script src="http://www.csdn.net/common/counter.js" type="text/javascript"></script>
+        <script src="http://www230.clickeye.cn/common/clickeye.js"></script>
+
+
+
+
+  <!--YOYI AMP CODE START-->
+<SCRIPT type="text/javascript" src="http://amps.yoyi.com.cn/amp/DisplayAd?pid=230B30&sid=91E31A"></SCRIPT>
+<!--YOYI AMP CODE END--> 
+
+
+</div>
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "F:\...\Search_Engine_2010\", ".", "{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/Search Engine 2010"
+		Debug.AspNetCompiler.PhysicalPath = "..\Search Engine 2010\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Search Engine 2010\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Search Engine 2010"
+		Release.AspNetCompiler.PhysicalPath = "..\Search Engine 2010\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Search Engine 2010\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1926"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Debug|.NET.ActiveCfg = Debug|.NET
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Debug|.NET.Build.0 = Debug|.NET
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Release|.NET.ActiveCfg = Debug|.NET
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Release|.NET.Build.0 = Debug|.NET
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{ABCB4DE7-BE76-425D-BD6F-DEF6C4A74917}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

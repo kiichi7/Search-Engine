@@ -1,0 +1,249 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta content="all" name="robots" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/ui/styles/topic.css" />
+<script type="text/javascript" src="/ui/scripts/Csdn/Topic.js"></script>
+<title>如何从文本文件中读取出中文字符串 .NET技�?/ C# - CSDN社区 community.csdn.net</title>
+<meta content="中文 null 文本文件 obj reader fs streamreader pstr filestream filename .NET技�?C#" name="Keywords" />
+<meta content="做了个读文本文件的测�?可是每次读回的中文都是乱码。有哪位高手可以帮忙解决一下这个问题�? name="description" />
+</head>
+<body>
+<div id="wrapper">
+<div id="innerWrapper">
+<div id="logo">
+<script src='http://www.csdn.net/ggmm/csdn_ggmm.js'></script>
+<script type='text/javascript'>show_ads_zone(230);</script>
+<img src="http://counter.csdn.net/pv.aspx?id=94" alt="" style="display: none" />
+<div/>
+<div style="margin:0 auto; width:100%; overflow:hidden">
+<script src="http://csdnimg.cn/pubnav/js/pub_topnav.js" 
+type="text/javascript" ></script>
+</div>
+
+<div id="logo">
+<table border="0" cellspacing="0" cellpadding="0" width="760">
+  <tr style="text-align:center">
+  	<td width="380" height="36" style="background-color:#026994; vertical-align:middle; margin:auto;" align="center">
+  	<!--a href="http://community.csdn.net/Games/GamesList.aspx/" target="_blank"><font size="3px" color="white"><strong>可用分押宝游戏火热进行中...</strong></font></a-->
+  	<a href="http://events.csdn.net/wiki/index.html" target="_blank"><font size="3px" color="white"><strong>写词条，拿礼品—中国移动Wiki嘉年�?</strong></font></a>
+    </td>
+    <td width="380" height="36" style="background-color:#026994; vertical-align:middle; margin:auto;" align="center">
+  	<a href="http://g.csdn.net/5085045" target="_blank"><font size="3px" color="white"><strong>浅谈并行编程中的任务分解模式</strong></font></a>
+  	</td>
+  </tr>
+  <tr id="bigFlash" style="text-align:center">
+	<!--td colspan="2"><a href="http://community.csdn.net/" target="_blank"><img src="/t/img/topicAD.jpg" width="760" height="300" border="0" /></a></td-->
+	<td colspan="2"><a href="http://g.csdn.net/5078710" target="_blank"><img src="/t/img/20090403.jpg" width="760" height="300" border="0" /></a></td>
+  </tr>
+</table>
+<script type="text/javascript">setTimeout("document.getElementById('bigFlash').style.display='none'", 5000);</script>
+</div>
+<table><tr>
+<td><a href="http://community.csdn.net/" rel="external"><img src="/ui/images/logo_csdn.gif" alt="CSDN社区" /></a></td>
+<td><script type='text/javascript'>show_ads_zone(228);</script>
+<!--<iframe frameborder="0" width="475" height="60" scrolling="no" src="/t/img/centerAd.htm">
+    </iframe>--></td>
+<td><script type='text/javascript'>show_ads_zone(229);</script></td>
+</tr></table>
+<!-- script src="http://notify.hi.csdn.net/PromptInfo.ashx?ForWhat=FullJs"></script -->
+
+<link rel="stylesheet" href="http://www.csdn.net/css/csdn_favbykimi.css" type="text/css" media="all" />
+<div id="navigation">
+<div id="search">
+<div id="innerSearch">
+<input id="key" onfocus="value=''" /><a href="#" onclick="return Search()">搜索</a>&nbsp;<cite class="fav_csdnstylebykimi"><a href="JavaScript:d=document;t=d.selection?(d.selection.type!='None'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'');void(saveit=window.open('http://wz.csdn.net/storeit.aspx?t='+escape(d.title)+'&u='+escape(d.location.href)+'&c='+escape(t),'saveit','scrollbars=no,width=590,height=300,left=75,top=20,status=no,resizable=yes'));saveit.focus();" title="收藏到我的网摘中，并分享给我的朋�?>收藏</a></cite>&nbsp;<a
+        href="#" onclick="return Print()">打印</a>&nbsp;<a href="#" onclick="return Close()">关闭</a>
+</div>
+</div>
+<div>
+<a href="http://community.csdn.net/" rel="external" class="CSDNRoom">CSDN社区</a>&nbsp;>&nbsp;
+<a href="http://community.csdn.net/Expert/ForumsList.asp?typenum=1&roomid=52" rel="external">
+.NET技�?/a>&nbsp;>&nbsp; <a href="http://community.csdn.net/Expert/ForumList.asp?typenum=1&roomid=5201"
+    rel="external">C#</a>
+</div>
+</div>
+
+<div id="mainWrapper">
+<div id="pageContent">
+<div id="innerContent">
+<h1>如何从文本文件中读取出中文字符串</h1><div class="author">
+<a class="anchor" name="Top">楼主</a>hlm0147（礼貌）<input type="button" class="user1" title="一级用�?该版得分小于等于100�? />2005-05-26 23:39:58 �? .NET技�?/ C# 提问</div>
+<p>
+做了个读文本文件的测�?可是每次读回的中文都是乱码。有哪位高手可以帮忙解决一下这个问题�?
+<span>问题点数�?0、回复次数：1</span><a href="#">Top</a>
+</p>
+<div class="tagad">
+<iframe frameBorder="0" scrolling='no' src="/Include/Board.htm?Tags="></iframe></div>
+<h3><strong><a class="anchor" name="r_29743633">1 �?/a>windsoft（風寒葉殘）<input type="button" class="user4" title="四级用户 该版得分小于等于2000分，大于1000�? /></strong><span>回复�?2005-05-26 23:58:28 得分 <em>40</em></span></h3>
+<p>		public &nbsp; static &nbsp; string &nbsp; ReadFile(string &nbsp; pStr_FileName) &nbsp; <br/> &nbsp; 		{ &nbsp; <br/> &nbsp; 			FileStream &nbsp; Obj_FS &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; = &nbsp; null; &nbsp; <br/> &nbsp; 			StreamReader &nbsp; Obj_Reader &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; = &nbsp; null; &nbsp; <br/> &nbsp; 			string &nbsp; Str_Data &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; = &nbsp; &quot;&quot;; &nbsp; <br/> &nbsp;  &nbsp; <br/> &nbsp; 			try &nbsp; <br/> &nbsp; 			{ &nbsp; <br/> &nbsp; 				Obj_FS &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; = &nbsp; new &nbsp; FileStream(pStr_FileName, &nbsp; FileMode.Open, &nbsp; FileAccess.Read, &nbsp; FileShare.None); &nbsp; <br/> &nbsp; 				Obj_Reader &nbsp;  &nbsp;  &nbsp;  &nbsp; = &nbsp; new &nbsp; StreamReader(Obj_FS, &nbsp; System.Text.Encoding.Default); &nbsp; <br/> &nbsp; 				Str_Data &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; = &nbsp; Obj_Reader.ReadToEnd(); &nbsp; <br/> &nbsp; 				Obj_Reader.Close(); &nbsp; <br/> &nbsp; 				Obj_FS.Close(); &nbsp; <br/> &nbsp; 			} &nbsp; <br/> &nbsp; 			catch{} &nbsp; <br/> &nbsp;  &nbsp; <br/> &nbsp; 			return &nbsp; Str_Data; &nbsp; <br/> &nbsp; 		} &nbsp; <br/> &nbsp; <a href="#">Top</a></p><h4><strong>相关问题</strong></h4>
+<div class="relation">
+<ul>
+<li><a href="http://topic.csdn.net/t/20021125/16/1203836.html" rel="external">如何将中文文本文件按行读出后转码成java可识别字符串</a></li>
+<li><a href="http://topic.csdn.net/t/20010518/19/125923.html" rel="external">怎样从文本文件中读取字符串？</a></li>
+<li><a href="http://topic.csdn.net/t/20010613/22/157940.html" rel="external">怎么在文本文件中插入一字符串？</a></li>
+<li><a href="http://topic.csdn.net/t/20010625/17/171238.html" rel="external">如何在文本文件里面查找字符串</a></li>
+<li><a href="http://topic.csdn.net/t/20020320/12/588304.html" rel="external">关于读取文本文件中字符串的问�?/a></li>
+<li><a href="http://topic.csdn.net/t/20020530/22/767431.html" rel="external">有关文本文件和字符串操作问题</a></li>
+<li><a href="http://topic.csdn.net/t/20030108/14/1338706.html" rel="external">关于向文本文件后缀字符串问�?�?</a></li>
+<li><a href="http://topic.csdn.net/t/20050216/09/3784786.html" rel="external">如何将字符串写入文本文件</a></li>
+<li><a href="http://topic.csdn.net/t/20050328/14/3887885.html" rel="external">字符串写入文本文件时 换行符的问题�?/a></li>
+<li><a href="http://topic.csdn.net/t/20050417/18/3944001.html" rel="external">字符串在文本文件中的定位查找</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="sidebar">
+<h3>关键�?/h3>
+<div>
+<ul>
+<li><a href="http://tag.csdn.net/tag/中文/" rel="external">中文</a></li>
+<li><a href="http://tag.csdn.net/tag/null/" rel="external">null</a></li>
+<li><a href="http://tag.csdn.net/tag/文本文件/" rel="external">文本文件</a></li>
+<li><a href="http://tag.csdn.net/tag/obj/" rel="external">obj</a></li>
+<li><a href="http://tag.csdn.net/tag/reader/" rel="external">reader</a></li>
+<li><a href="http://tag.csdn.net/tag/fs/" rel="external">fs</a></li>
+<li><a href="http://tag.csdn.net/tag/streamreader/" rel="external">streamreader</a></li>
+<li><a href="http://tag.csdn.net/tag/pstr/" rel="external">pstr</a></li>
+<li><a href="http://tag.csdn.net/tag/filestream/" rel="external">filestream</a></li>
+<li><a href="http://tag.csdn.net/tag/filename/" rel="external">filename</a></li>
+</ul>
+</div>
+<h3>得分解答快速导�?/h3>
+<div>
+<ul>
+<li>帖主�?a href="#Top">hlm0147</a></li>
+<li><a href="#r_29743633">windsoft</a></li>
+</ul>
+</div>
+<h3>相关链接</h3>
+<div>
+<ul>
+
+    <li><a href="http://dotnet.csdn.net/" target=_blank>CSDN .NET频道</a></li>
+    <li><a href="http://www.dearbook.com.cn/Book/SearchBook.aspx?sortid=6&sorttype=smallsort" target=_blank>.NET类图�?/a></li>
+    <li><a href="http://www.dearbook.com.cn/Book/SearchBook.aspx?sortid=10&sorttype=smallsort" target=_blank>C#类图�?/a></li>
+    <li><a href="http://www.codechina.net/resource/sort.php/243" target=_blank>.NET类源码下�?/a></li>
+
+</ul></div>
+<h3>广告也精�?/h3>
+<div>
+    <!-- script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script -->
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-1076724771190722";
+/* 160x600, 创建�?10-3-16 */
+google_ad_slot = "1613481335";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+<h3>反馈</h3><div>请通过下述方式给我们反�?br/><img src="/ui/images/feedback.gif" alt="反馈" /></div>
+</div>
+<div class="clear"></div>
+</div>
+<div style="text-align: center;">
+    <div id="pubfooter" style="width: 770px;">
+    <div id="Float21789" style="position: absolute; z-index: 9; width: 190px; top: 200px;
+        right: 3px;">
+        <center>
+            <div id="AD21789" style="width: 190px; height: 90px; text-align: center; float: none;">
+				<a style="float: right; padding-right: 10px; cursor: pointer;" onclick="document.getElementById('Float21789').style.display='none';">x</a>
+                <a href="http://g.csdn.net/5060169" target="_blank">
+                    <img src="http://community.csdn.net/ui/homepage/images/questions.gif" alt="提问" style="width: 180px;
+                        height: 50px; padding-right: 3px;" /></a>
+            </div>
+        </center>
+    </div>
+
+    <script type="text/javascript" language="JavaScript">
+    var csdnScrollTop=function(){
+        return document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop;
+        };
+        function mymove21789(){
+        document.getElementById("Float21789").style.top=csdnScrollTop()+100+'px';document.getElementById("Float21789").style.right=3+'px';setTimeout("mymove21789();",50);
+        }
+        mymove21789();
+    </script>
+	<!--
+    <div id="Float21790" style="position: absolute; z-index: 9; width: 190px; top: 300px;
+        right: 3px;">
+        <center>
+            <div id="AD21790" style="width: 190px; height: 90px; text-align: center; float: none;">
+                <a href="http://vote.csdn.net/VoteList.aspx" target="_blank">
+                    <img src="http://topic.csdn.net/t/img/hotvote.gif" alt="惹火投票。。火热进行中..." style="width: 180px; height: 30px;" /></a>
+            </div>
+        </center>
+    </div>
+
+    <script type="text/javascript" language="JavaScript">
+        function mymove21790(){
+        document.getElementById("Float21790").style.top=csdnScrollTop()+200+'px';document.getElementById("Float21790").style.right=3+'px';setTimeout("mymove21790();",50);
+        }
+        mymove21790();
+    </script>
+	-->
+    <script src="http://community.csdn.net/t/fb2.js" type="text/javascript"></script>
+    <script src="http://csdnimg.cn/pubfooter/js/publib_footer.js" type="text/javascript"></script>
+	<style type="text/css">.pub_footerall{width:770px;}</style>
+    </div>
+</div>
+
+        <!--google   Analytics begin -->
+
+        <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+        </script>
+
+        <script type="text/javascript">
+_uacct = "UA-2688088-7";
+urchinTracker();
+        </script>
+
+<div id="ad_right" style="position:absolute;width:120px;top:184px;left:10px;display:none;">
+<script type="text/javascript">
+try {
+	var ad_right = "";
+	if (screen.availWidth > 1200) { 
+		ad_right += '<' + 'script type=\"text/javascript\">';
+		ad_right += 'google_ad_client = "pub-1076724771190722";';
+		ad_right += 'google_ad_slot =\"5633584852\";';
+		ad_right += 'google_ad_width = 120;';
+		ad_right += 'google_ad_height = 600;';  
+		ad_right += '</'+'script>';
+		ad_right += '<'+'script type=\"text/javascript\"';
+		ad_right += 'src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">';
+		ad_right += '</'+'script>';
+	}
+	document.write(ad_right);
+	document.getElementById("ad_right").style.display = "";
+}catch(e){}
+</script>
+</div>
+        <!--google   Analytics end -->
+
+        <script src="http://www.csdn.net/common/counter.js" type="text/javascript"></script>
+        <script src="http://www230.clickeye.cn/common/clickeye.js"></script>
+
+
+
+
+  <!--YOYI AMP CODE START-->
+<SCRIPT type="text/javascript" src="http://amps.yoyi.com.cn/amp/DisplayAd?pid=230B30&sid=91E31A"></SCRIPT>
+<!--YOYI AMP CODE END--> 
+
+
+</div>
+</div>
+</body>
+</html>
+
+
