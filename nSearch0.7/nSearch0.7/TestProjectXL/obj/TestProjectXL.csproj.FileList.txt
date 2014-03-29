@@ -1,0 +1,11 @@
+.\bin\Debug\TestProjectXL.dll
+.\bin\Debug\TestProjectXL.pdb
+.\bin\Release\TestProjectXL.dll
+..\bin\Debug\TestProjectXL.dll
+..\bin\Debug\TestProjectXL.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TestProjectXL.dll
+obj\Debug\TestProjectXL.pdb
+..\bin\Release\TestProjectXL.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\TestProjectXL.dll

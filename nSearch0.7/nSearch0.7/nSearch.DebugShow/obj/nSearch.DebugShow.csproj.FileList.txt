@@ -1,0 +1,5 @@
+..\bin\Debug\nSearch.DebugShow.dll
+..\bin\Debug\nSearch.DebugShow.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\nSearch.DebugShow.dll
+obj\Debug\nSearch.DebugShow.pdb

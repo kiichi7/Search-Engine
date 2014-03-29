@@ -1,0 +1,5 @@
+..\bin\Debug\Lucene.Net.dll
+..\bin\Debug\Lucene.Net.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Lucene.Net.dll
+obj\Debug\Lucene.Net.pdb

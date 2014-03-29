@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="宋体" Size="9" />
+  <Class Name="nSearch.about.AboutControl">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AboutControl.cs</FileName>
+      <HashCode>AAAAAAAAACAAAFAAAASBAAACAAAgAAAAEAAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

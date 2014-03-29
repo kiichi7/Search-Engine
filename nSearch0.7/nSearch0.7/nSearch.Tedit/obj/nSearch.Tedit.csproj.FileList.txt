@@ -1,0 +1,12 @@
+..\bin\Debug\nSearch.Tedit.exe
+..\bin\Debug\nSearch.Tedit.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.aa_xl_wordLib.dll
+obj\Debug\AxInterop.aa_xl_wordLib.dll
+obj\Debug\nSearch.Tedit.csproj.ResolveComReference.cache
+obj\Debug\nSearch.Tedit.FormAbout.resources
+obj\Debug\nSearch.Tedit.FormParseST.resources
+obj\Debug\nSearch.Tedit.Properties.Resources.resources
+obj\Debug\nSearch.Tedit.csproj.GenerateResource.Cache
+obj\Debug\nSearch.Tedit.exe
+obj\Debug\nSearch.Tedit.pdb

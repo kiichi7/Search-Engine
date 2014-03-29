@@ -1,0 +1,6 @@
+..\bin\Debug\Highlighter.Net.dll
+..\bin\Debug\Highlighter.Net.pdb
+..\bin\Debug\Highlighter.Net.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Highlighter.Net.dll
+obj\Debug\Highlighter.Net.pdb

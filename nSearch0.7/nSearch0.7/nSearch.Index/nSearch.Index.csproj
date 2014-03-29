@@ -1,0 +1,157 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C208719-CF53-4F38-BDF7-B56D691385F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nSearch.Index</RootNamespace>
+    <AssemblyName>nSearch.Index</AssemblyName>
+    <ApplicationIcon>nSearch.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIndex.Designer.cs">
+      <DependentUpon>FormIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Index\ClassIndex.cs" />
+    <Compile Include="Index\ClassModelData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIndex.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XW\xlcom.resx">
+      <DependentUpon>xlcom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="XW\ClassXunLongChinese.cs" />
+    <Compile Include="XW\xlcom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XW\xlcom.designer.cs">
+      <DependentUpon>xlcom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XW\XunLongAnalyzer.cs" />
+    <Compile Include="XW\XunLongTokenizer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lucene.Net\Lucene.Net-2.0.0.csproj">
+      <Project>{F04CA2F4-E182-46A8-B914-F46AF5319E83}</Project>
+      <Name>Lucene.Net-2.0.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nSearch.about\nSearch.about.csproj">
+      <Project>{E47EE02D-C0F3-43F2-8639-8A99CAF5D0FB}</Project>
+      <Name>nSearch.about</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nSearch.ClassLibraryHTML\nSearch.ClassLibraryHTML.csproj">
+      <Project>{9BCE42CC-DF74-440D-A835-F92408B2BE09}</Project>
+      <Name>nSearch.ClassLibraryHTML</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nSearch.ClassLibraryStruct\nSearch.ClassLibraryStruct.csproj">
+      <Project>{81D494BE-7876-4A8A-BD97-EB571F5B2E92}</Project>
+      <Name>nSearch.ClassLibraryStruct</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nSearch.ConfigX\nSearch.ConfigX.csproj">
+      <Project>{01C7AFA9-5C4F-4B79-8113-C165431DF22A}</Project>
+      <Name>nSearch.ConfigX</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nSearch.DebugShow\nSearch.DebugShow.csproj">
+      <Project>{0735EB52-6323-4438-9887-8B4C2F64FEC2}</Project>
+      <Name>nSearch.DebugShow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nSearch.FS\nSearch.FS.csproj">
+      <Project>{4147DCDB-1F8F-42AF-851A-CF24BE26C4BF}</Project>
+      <Name>nSearch.FS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="aa_xl_wordLib">
+      <Guid>{5DFAF7B7-E60E-4A7E-ABB1-1381AD00EE2A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Axaa_xl_wordLib">
+      <Guid>{5DFAF7B7-E60E-4A7E-ABB1-1381AD00EE2A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nSearch.ico" />
+    <None Include="Resources\xl2.GIF" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

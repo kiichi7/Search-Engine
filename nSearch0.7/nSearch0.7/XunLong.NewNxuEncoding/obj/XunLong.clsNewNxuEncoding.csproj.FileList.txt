@@ -1,0 +1,5 @@
+..\bin\Debug\Xunlong.NewNxuEncoding.dll
+..\bin\Debug\Xunlong.NewNxuEncoding.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Xunlong.NewNxuEncoding.dll
+obj\Debug\Xunlong.NewNxuEncoding.pdb

@@ -1,0 +1,9 @@
+..\bin\Debug\nSearch.Run.exe
+..\bin\Debug\nSearch.Run.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\nSearch.Run.FormAbout.resources
+obj\Debug\nSearch.Run.FormRun.resources
+obj\Debug\nSearch.Run.Properties.Resources.resources
+obj\Debug\nSearch.Run.csproj.GenerateResource.Cache
+obj\Debug\nSearch.Run.exe
+obj\Debug\nSearch.Run.pdb

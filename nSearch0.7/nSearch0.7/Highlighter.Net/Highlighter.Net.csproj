@@ -1,0 +1,173 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{901D5415-383C-4AA6-A256-879558841BEA}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>nSearch.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Highlighter.Net</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Lucene.Net.Search.Highlight</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>Highlighter.Net.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DefaultEncoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Encoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Formatter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Fragmenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GradientFormatter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Highlighter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NullFragmenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QueryScorer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QueryTermExtractor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Scorer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SimpleFragmenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SimpleHTMLEncoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SimpleHTMLFormatter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpanGradientFormatter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TextFragment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TokenGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TokenSources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\HashSetSupport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\ISetSupport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WeightedTerm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="nSearch.ico" />
+    <Content Include="Package.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lucene.Net\Lucene.Net-2.0.0.csproj">
+      <Project>{F04CA2F4-E182-46A8-B914-F46AF5319E83}</Project>
+      <Name>Lucene.Net-2.0.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nSearch.ConfigX\nSearch.ConfigX.csproj">
+      <Project>{01C7AFA9-5C4F-4B79-8113-C165431DF22A}</Project>
+      <Name>nSearch.ConfigX</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nSearch.DebugShow\nSearch.DebugShow.csproj">
+      <Project>{0735EB52-6323-4438-9887-8B4C2F64FEC2}</Project>
+      <Name>nSearch.DebugShow</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

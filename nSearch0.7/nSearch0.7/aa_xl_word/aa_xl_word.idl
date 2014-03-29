@@ -1,0 +1,70 @@
+// aa_xl_word.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(aa_xl_word.tlb)，该类型库将成为
+// aa_xl_word.ocx 中的资源。
+
+
+
+
+ //  宁夏大学-张冬-BLOG  http://blog.163.com/zd4004/
+ 
+ 
+ //  在ICTCLAS 基础上修改为ActiceX   因为主要代码不是我的  所以良心深感不安  但是 这个对于国内整个行业来说是重要的
+ 
+ //  希望大家依照 ICTCLAS 原来的许可进行研究  用到商业用途的话 请先征求 ICTCLAS 开发者许可 
+ 
+ //        宁夏大学  张冬 2007.4.7
+ 
+ 
+
+
+
+
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(5DFAF7B7-E60E-4A7E-ABB1-1381AD00EE2A), version(1.0),
+  helpfile("aa_xl_word.hlp"),
+  helpstring("aa_xl_word ActiveX 控件模块"),
+  control ]
+library aa_xl_wordLib
+{
+	importlib(STDOLE_TLB);
+
+	//  Caa_xl_wordCtrl 的主调度接口
+
+	[ uuid(6EEC6F7E-CB2E-45CB-AC0D-6FB37C7925D4),
+	  helpstring("aa_xl_word Control 的调度接口")]
+	dispinterface _Daa_xl_word
+	{
+		properties:
+		methods:
+	         [id(1)] BSTR aa_X_word_ocx(BSTR a);
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Caa_xl_wordCtrl 的事件调度接口
+
+	[ uuid(F9498B14-EB18-4E58-A030-495251C8ADE0),
+	  helpstring("aa_xl_word Control 的事件接口") ]
+	dispinterface _Daa_xl_wordEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  Caa_xl_wordCtrl 的类信息
+
+	[ uuid(39655597-BED9-4EE9-9970-65F811E8144A),
+	  helpstring("aa_xl_word Control"), control ]
+	coclass aa_xl_word
+	{
+		[default] dispinterface _Daa_xl_word;
+		[default, source] dispinterface _Daa_xl_wordEvents;
+	};
+
+};

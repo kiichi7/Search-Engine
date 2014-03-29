@@ -1,0 +1,16 @@
+bin\Debug\nSearch.about.dll
+bin\Debug\nSearch.about.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\nSearch.about.Properties.Resources.resources
+obj\Debug\nSearch.about.AboutControl.resources
+obj\Debug\nSearch.about.csproj.GenerateResource.Cache
+obj\Debug\nSearch.about.dll
+obj\Debug\nSearch.about.pdb
+bin\Release\nSearch.about.dll
+bin\Release\nSearch.about.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\nSearch.about.Properties.Resources.resources
+obj\Release\nSearch.about.AboutControl.resources
+obj\Release\nSearch.about.csproj.GenerateResource.Cache
+obj\Release\nSearch.about.dll
+obj\Release\nSearch.about.pdb

@@ -1,0 +1,13 @@
+..\bin\Debug\nSearch.Index.exe
+..\bin\Debug\nSearch.Index.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.aa_xl_wordLib.dll
+obj\Debug\AxInterop.aa_xl_wordLib.dll
+obj\Debug\nSearch.Index.csproj.ResolveComReference.cache
+obj\Debug\nSearch.Index.FormAbout.resources
+obj\Debug\nSearch.Index.FormIndex.resources
+obj\Debug\nSearch.Index.Properties.Resources.resources
+obj\Debug\nSearch.xOcx.xlcom.resources
+obj\Debug\nSearch.Index.csproj.GenerateResource.Cache
+obj\Debug\nSearch.Index.exe
+obj\Debug\nSearch.Index.pdb

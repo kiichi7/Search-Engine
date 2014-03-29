@@ -1,0 +1,9 @@
+..\bin\Debug\nSearch.ModelBuild.exe
+..\bin\Debug\nSearch.ModelBuild.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\nSearch.ModelBuild.FormAbout.resources
+obj\Debug\nSearch.ModelBuild.FormModelBuild.resources
+obj\Debug\nSearch.ModelBuild.Properties.Resources.resources
+obj\Debug\nSearch.ModelBuild.csproj.GenerateResource.Cache
+obj\Debug\nSearch.ModelBuild.exe
+obj\Debug\nSearch.ModelBuild.pdb

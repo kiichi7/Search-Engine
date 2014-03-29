@@ -1,0 +1,12 @@
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.Tedit.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.Tedit.pdb
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\ResolveAssemblyReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\Interop.aa_xl_wordLib.dll
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\AxInterop.aa_xl_wordLib.dll
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\nSearch.Tedit.csproj.ResolveComReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\nSearch.Tedit.FormAbout.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\nSearch.Tedit.FormParseST.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\nSearch.Tedit.Properties.Resources.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\nSearch.Tedit.csproj.GenerateResource.Cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\nSearch.Tedit.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.Tedit\obj\Debug\nSearch.Tedit.pdb

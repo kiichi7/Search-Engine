@@ -1,0 +1,9 @@
+; aa_xl_word.def : 定义模块参数。
+
+LIBRARY      "aa_xl_word.OCX"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

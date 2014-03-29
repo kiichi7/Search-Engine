@@ -1,0 +1,9 @@
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.ModelBuild.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.ModelBuild.pdb
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.ModelBuild\obj\Debug\ResolveAssemblyReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.ModelBuild\obj\Debug\nSearch.ModelBuild.FormAbout.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.ModelBuild\obj\Debug\nSearch.ModelBuild.FormModelBuild.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.ModelBuild\obj\Debug\nSearch.ModelBuild.Properties.Resources.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.ModelBuild\obj\Debug\nSearch.ModelBuild.csproj.GenerateResource.Cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.ModelBuild\obj\Debug\nSearch.ModelBuild.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.ModelBuild\obj\Debug\nSearch.ModelBuild.pdb

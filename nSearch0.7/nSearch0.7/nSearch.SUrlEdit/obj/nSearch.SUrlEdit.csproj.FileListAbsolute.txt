@@ -1,0 +1,9 @@
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.SUrlEdit.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.SUrlEdit.pdb
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.SUrlEdit\obj\Debug\ResolveAssemblyReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.SUrlEdit\obj\Debug\nSearch.SUrlEdit.FormAbout.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.SUrlEdit\obj\Debug\nSearch.SUrlEdit.FormSUrlEdit.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.SUrlEdit\obj\Debug\nSearch.SUrlEdit.Properties.Resources.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.SUrlEdit\obj\Debug\nSearch.SUrlEdit.csproj.GenerateResource.Cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.SUrlEdit\obj\Debug\nSearch.SUrlEdit.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.SUrlEdit\obj\Debug\nSearch.SUrlEdit.pdb

@@ -1,0 +1,9 @@
+..\bin\Debug\nSearch.FS.exe
+..\bin\Debug\nSearch.FS.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\nSearch.FS.FormAbout.resources
+obj\Debug\nSearch.FS.FormFS.resources
+obj\Debug\nSearch.FS.Properties.Resources.resources
+obj\Debug\nSearch.FS.csproj.GenerateResource.Cache
+obj\Debug\nSearch.FS.exe
+obj\Debug\nSearch.FS.pdb

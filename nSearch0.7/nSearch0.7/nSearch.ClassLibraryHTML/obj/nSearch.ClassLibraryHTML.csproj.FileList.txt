@@ -1,0 +1,5 @@
+..\bin\Debug\nSearch.ClassLibraryHTML.dll
+..\bin\Debug\nSearch.ClassLibraryHTML.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\nSearch.ClassLibraryHTML.dll
+obj\Debug\nSearch.ClassLibraryHTML.pdb

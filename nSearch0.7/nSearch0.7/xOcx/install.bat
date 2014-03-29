@@ -1,0 +1,1 @@
+regsvr32 aa_xl_word.ocx

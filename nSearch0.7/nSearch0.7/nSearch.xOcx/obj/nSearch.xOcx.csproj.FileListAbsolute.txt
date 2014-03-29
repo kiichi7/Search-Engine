@@ -1,0 +1,12 @@
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.xOcx.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.xOcx.pdb
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\ResolveAssemblyReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\Interop.aa_xl_wordLib.dll
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\AxInterop.aa_xl_wordLib.dll
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\nSearch.xOcx.csproj.ResolveComReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\nSearch.xOcx.FormAbout.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\nSearch.xOcx.Properties.Resources.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\nSearch.xOcx.xlcom.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\nSearch.xOcx.csproj.GenerateResource.Cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\nSearch.xOcx.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.xOcx\obj\Debug\nSearch.xOcx.pdb

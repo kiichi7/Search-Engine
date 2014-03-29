@@ -1,0 +1,5 @@
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\Xunlong.NewNxuEncoding.dll
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\Xunlong.NewNxuEncoding.pdb
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\XunLong.NewNxuEncoding\obj\Debug\ResolveAssemblyReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\XunLong.NewNxuEncoding\obj\Debug\Xunlong.NewNxuEncoding.dll
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\XunLong.NewNxuEncoding\obj\Debug\Xunlong.NewNxuEncoding.pdb

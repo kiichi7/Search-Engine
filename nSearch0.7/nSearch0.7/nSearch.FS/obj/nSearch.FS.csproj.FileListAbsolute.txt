@@ -1,0 +1,9 @@
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.FS\obj\Debug\nSearch.FS.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.FS\obj\Debug\nSearch.FS.pdb
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.FS.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.FS.pdb
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.FS\obj\Debug\ResolveAssemblyReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.FS\obj\Debug\nSearch.FS.FormAbout.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.FS\obj\Debug\nSearch.FS.FormFS.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.FS\obj\Debug\nSearch.FS.Properties.Resources.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.FS\obj\Debug\nSearch.FS.csproj.GenerateResource.Cache

@@ -1,0 +1,5 @@
+..\bin\Debug\nSearch.ClassLibraryStruct.dll
+..\bin\Debug\nSearch.ClassLibraryStruct.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\nSearch.ClassLibraryStruct.dll
+obj\Debug\nSearch.ClassLibraryStruct.pdb

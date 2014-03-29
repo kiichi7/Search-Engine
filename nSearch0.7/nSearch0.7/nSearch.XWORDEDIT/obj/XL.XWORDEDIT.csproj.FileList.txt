@@ -1,0 +1,8 @@
+..\bin\Debug\XL.XWORDEDIT.exe
+..\bin\Debug\XL.XWORDEDIT.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XL.XWORDEDIT.FormWordEdit.resources
+obj\Debug\XL.XWORDEDIT.Properties.Resources.resources
+obj\Debug\XL.XWORDEDIT.csproj.GenerateResource.Cache
+obj\Debug\XL.XWORDEDIT.exe
+obj\Debug\XL.XWORDEDIT.pdb

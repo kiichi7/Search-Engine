@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestCase Name="WebTest1" Id="719162b6-4459-47c2-b80b-b0c7f704e867" Owner="" Priority="0" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="" RequestCallbackClass="" TestCaseCallbackClass="">
+  <Items>
+    <Request Method="GET" Version="1.1" Url="http://127.0.0.1:81/s" ThinkTime="0" Timeout="0" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8">
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Level="High">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="中文" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="wd" Value="windows" UrlEncode="True" UseToGroupResults="False" />
+        <QueryStringParameter Name="ws" Value="0" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wl" Value="10" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+</TestCase>

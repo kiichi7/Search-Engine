@@ -1,0 +1,9 @@
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.XWORDEDIT.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\nSearch.XWORDEDIT.pdb
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.XWORDEDIT\obj\Debug\ResolveAssemblyReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.XWORDEDIT\obj\Debug\nSearch.XWORDEDIT.FormAbout.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.XWORDEDIT\obj\Debug\XL.XWORDEDIT.FormWordEdit.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.XWORDEDIT\obj\Debug\nSearch.XWORDEDIT.Properties.Resources.resources
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.XWORDEDIT\obj\Debug\nSearch.XWORDEDIT.csproj.GenerateResource.Cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.XWORDEDIT\obj\Debug\nSearch.XWORDEDIT.exe
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\nSearch.XWORDEDIT\obj\Debug\nSearch.XWORDEDIT.pdb

@@ -1,0 +1,13 @@
+..\bin\Debug\nSearch.SearchOne.exe
+..\bin\Debug\nSearch.SearchOne.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.aa_xl_wordLib.dll
+obj\Debug\AxInterop.aa_xl_wordLib.dll
+obj\Debug\nSearch.SearchOne.csproj.ResolveComReference.cache
+obj\Debug\nSearch.SearchOne.FormAbout.resources
+obj\Debug\nSearch.SearchOne.FormTest.resources
+obj\Debug\nSearch.SearchOne.Properties.Resources.resources
+obj\Debug\nSearch.xOcx.xlcom.resources
+obj\Debug\nSearch.SearchOne.csproj.GenerateResource.Cache
+obj\Debug\nSearch.SearchOne.exe
+obj\Debug\nSearch.SearchOne.pdb

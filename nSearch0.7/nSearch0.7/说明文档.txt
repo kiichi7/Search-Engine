@@ -1,0 +1,15 @@
+迅龙中文Web搜索引擎(.NET)
+
+
+  下载完整版 代码 http://gforge.osdn.net.cn/projects/xunlong/
+
+LGPL协议发行  
+
+作者： 宁夏大学 张冬   
+
+zd4004@163.com
+
+欢迎技术交流  http://blog.163.com/zd4004/
+
+
+                           2007.2.26

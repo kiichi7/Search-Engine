@@ -1,0 +1,5 @@
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\Lucene.Net.dll
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\bin\Debug\Lucene.Net.pdb
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\Lucene.Net\obj\Debug\ResolveAssemblyReference.cache
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\Lucene.Net\obj\Debug\Lucene.Net.dll
+F:\___毕业设计\C# 搜索引擎\nSearch0.7\nSearch0.7\Lucene.Net\obj\Debug\Lucene.Net.pdb

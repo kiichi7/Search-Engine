@@ -1,0 +1,67 @@
+
+
+迅龙中文搜索 0.7 nSearch版 C#  源代码下载
+ 
+       以发展中国的开源软件事业为己任 
+
+       促进中文搜索技术的交流与合作！
+
+宁夏大学 张冬  http://zd4004.blog.163.com/
+
+源代码下载 http://gforge.osdn.net.cn/projects/xunlong/
+
+源代码 系统 搜索引擎  C#  中文搜索
+
+
+
+
+
+
+
+
+
+迅龙中文Web搜索引擎(.NET)
+
+       以发展中国的开源软件事业为己任
+       促进中文搜索技术的交流与合作！
+
+
+
+
+
+LGPL协议发行  
+
+作者： 宁夏大学 张冬   
+
+
+
+zd4004@163.com
+
+欢迎技术交流  http://blog.163.com/zd4004/
+
+
+                           2007.2.26
+
+
+
+
+
+DATATEST目录为数据目录 
+
+nSearch 目录为 源代码目录 
+
+nSearch/Bin 目录为 可执行版本目录 
+
+具体请参照 文档.pdf
+
+
+运行环境
+    
+         Microsoft .NET Framework 2.0 
+         C# 开发 
+
+
+
+   注意：必需步骤     nSearch\xOcx\install.bat  加载分词组件
+
+
